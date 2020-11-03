@@ -1,0 +1,232 @@
+/* .hidden{
+ display: none;   
+} */
+
+*{
+    text-align: center;
+    /* background-color: black;
+    color: white; */
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Merriweather'; */
+    font-family: 'Fira Sans';
+
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url(fonts/Merriweather/Merriweather-Light.ttf);
+
+    
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url(fonts/FiraSans-Thin.ttf);
+
+}
+
+#navbar {
+    background-image: linear-gradient(to right top, #110d0f, #0b180c, #211925, #240d0d, #041d1d);
+    background-color: rgb(10, 9, 1);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#name h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 5px rgb(222, 238, 208);
+    font-size: 35px;
+    padding-top: 10px;
+    padding-left: 70px;
+    font-weight: bold;
+    font-family:'Merriweather' !important;
+    transition: transform .9s;
+
+
+}
+
+#name h1:hover{
+    transform: scale(1.02);
+    font-size: 36px;
+    /* background-color: rgb(36, 34, 34); */
+    color: rgb(226, 225, 225);
+}
+
+#logo img {
+    height: 65px;
+    justify-content: center;
+    transition: transform .25s;
+}
+
+#logo img:hover {
+    transform: scale(1.2);
+}
+
+#links ul {
+    display: flex;
+    list-style: none;
+}
+
+#links li img {
+    width: 30px !important; 
+    height: 30px !important;
+
+    margin: 10px;
+    transition: transform .25s;
+    /* padding: 10px; */
+}
+
+
+#links li img:hover {
+    transform: scale(1.6);
+   
+}
+
+
+/* assigmnent */
+
+
+
+#allassignment h1{
+    font-size: 25px;
+    
+    /* padding-top: 30px; */
+    background-color: rgba(49, 25, 85, 0.979);
+    height: 48px;
+    text-align: center;
+    padding-top: 15px;
+    transition: transform .25s;
+    font-weight: 400;
+    color: white;
+
+
+}
+
+#allassignment h1:hover{
+    background-color: rgb(240, 240, 240);
+    color: rgb(10, 2, 2) !important;
+    transform: scale(1.02);
+}
+
+
+#contentcards{
+    /* background-color: rgb(78, 30, 30); */
+    /* height: 100%; */
+}
+
+
+
+
+
+
+/* ************* stopwatch code*********************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#tim{
+    margin: 30px auto;
+}
+
+#tim h1{
+    display: inline-block;
+    font-size: 50px;
+    /* width:0px; */
+    font-family: 'Syne Mono', monospace;
+    color: rgba(49, 25, 85, 0.979);
+    /* border: 2px solid rgba(49, 25, 85, 0.979); */
+    margin: 10px 10px;
+
+    
+}
+
+
+
+#head h1{
+    font-size: 50px;
+    text-shadow: 5px 1px 10px rgb(240, 238, 238);
+    /* margin-top: 100px; */
+    margin: 50px auto;
+    padding: 10px;
+    color: rgba(49, 25, 85, 0.979);
+    width: 350px;
+    border: 5px solid rgba(49, 25, 85, 0.979);
+    border-radius: 50px;
+
+}
+
+button{
+    width: 130px;
+    height: 45px;
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: white;
+    background-color:rgba(49, 25, 85, 0.979) ;
+    border: none;
+    border-radius: 22px;
+    /* transition: .2; */
+
+}
+
+/* button:hover{
+    background-color: red;
+
+} */
+
+button:disabled{
+    background-color: rgb(71, 71, 71);
+    color: rgb(156, 154, 154);
+}
+
+button:focus{
+    outline: none;
+}
+
+#tim h1 span{
+    color: yellow;
+}
+
+#laps{
+    margin-top: 20px;
+    color: rgba(49, 25, 85, 0.979);
+    font-family: 'Syne Mono', monospace;
+    text-align: center;
+}
+
+#data1{
+    width:240px;
+    margin: auto;
+    text-align: justify;
+}
+
+.bord{
+    border: 4px solid rgba(49, 25, 85, 0.979);
+    width: 200px !important;
+    border-radius: 60px;
+
+}
+/* button:disabled:hover{
+    background-color: red;
+    color: white !important;
+
+} */
+
+
+
